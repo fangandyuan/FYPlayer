@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C93F0C69D155B73BD0A48C98 /* Pods_FYPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96A72A411B5A4260CA2F0D9 /* Pods_FYPlayer.framework */; };
+		F324FC141F3DC02200ACB338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC131F3DC02200ACB338 /* AppDelegate.swift */; };
+		F324FC161F3DC02200ACB338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC151F3DC02200ACB338 /* ViewController.swift */; };
+		F324FC1B1F3DC02200ACB338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F324FC1A1F3DC02200ACB338 /* Assets.xcassets */; };
+		F324FC1E1F3DC02200ACB338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F324FC1C1F3DC02200ACB338 /* LaunchScreen.storyboard */; };
+		F324FC471F3DC98F00ACB338 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F324FC461F3DC98F00ACB338 /* libz.tbd */; };
+		F324FC491F3DC9A300ACB338 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F324FC481F3DC9A300ACB338 /* libsqlite3.0.tbd */; };
+		F324FC501F3DCBBB00ACB338 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F324FC4F1F3DCBBB00ACB338 /* libc++.tbd */; };
+		F324FC581F429AC900ACB338 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F324FC571F429AC900ACB338 /* SystemConfiguration.framework */; };
+		F324FC8D1F43089F00ACB338 /* FYLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC841F43089F00ACB338 /* FYLoadingView.swift */; };
+		F324FC8E1F43089F00ACB338 /* FYNetNotiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC851F43089F00ACB338 /* FYNetNotiView.swift */; };
+		F324FC8F1F43089F00ACB338 /* FYPlayerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC861F43089F00ACB338 /* FYPlayerOption.swift */; };
+		F324FC901F43089F00ACB338 /* FYPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC871F43089F00ACB338 /* FYPlayerView.swift */; };
+		F324FC911F43089F00ACB338 /* FYPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC881F43089F00ACB338 /* FYPlayerViewController.swift */; };
+		F324FC921F43089F00ACB338 /* FYConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC8A1F43089F00ACB338 /* FYConst.swift */; };
+		F324FC931F43089F00ACB338 /* UINavigationControllerExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC8B1F43089F00ACB338 /* UINavigationControllerExtend.swift */; };
+		F324FC941F43089F00ACB338 /* UITabBarControllerExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC8C1F43089F00ACB338 /* UITabBarControllerExtend.swift */; };
+		F324FC9E1F430ECD00ACB338 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F324FC9D1F430ECD00ACB338 /* IJKMediaFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		752EE9487F0CE2AAC1A1ED59 /* Pods-FYPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYPlayer/Pods-FYPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		B96A72A411B5A4260CA2F0D9 /* Pods_FYPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F7E9B5AD4C77ECD55D60E1 /* Pods-FYPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYPlayer/Pods-FYPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		F324FC101F3DC02200ACB338 /* FYPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F324FC131F3DC02200ACB338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F324FC151F3DC02200ACB338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F324FC1A1F3DC02200ACB338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F324FC1D1F3DC02200ACB338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F324FC1F1F3DC02200ACB338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F324FC461F3DC98F00ACB338 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F324FC481F3DC9A300ACB338 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F324FC4F1F3DCBBB00ACB338 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F324FC571F429AC900ACB338 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F324FC841F43089F00ACB338 /* FYLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYLoadingView.swift; sourceTree = "<group>"; };
+		F324FC851F43089F00ACB338 /* FYNetNotiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYNetNotiView.swift; sourceTree = "<group>"; };
+		F324FC861F43089F00ACB338 /* FYPlayerOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYPlayerOption.swift; sourceTree = "<group>"; };
+		F324FC871F43089F00ACB338 /* FYPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYPlayerView.swift; sourceTree = "<group>"; };
+		F324FC881F43089F00ACB338 /* FYPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYPlayerViewController.swift; sourceTree = "<group>"; };
+		F324FC8A1F43089F00ACB338 /* FYConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYConst.swift; sourceTree = "<group>"; };
+		F324FC8B1F43089F00ACB338 /* UINavigationControllerExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtend.swift; sourceTree = "<group>"; };
+		F324FC8C1F43089F00ACB338 /* UITabBarControllerExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarControllerExtend.swift; sourceTree = "<group>"; };
+		F324FC9D1F430ECD00ACB338 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F324FC0D1F3DC02200ACB338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F324FC581F429AC900ACB338 /* SystemConfiguration.framework in Frameworks */,
+				F324FC501F3DCBBB00ACB338 /* libc++.tbd in Frameworks */,
+				F324FC491F3DC9A300ACB338 /* libsqlite3.0.tbd in Frameworks */,
+				F324FC9E1F430ECD00ACB338 /* IJKMediaFramework.framework in Frameworks */,
+				F324FC471F3DC98F00ACB338 /* libz.tbd in Frameworks */,
+				C93F0C69D155B73BD0A48C98 /* Pods_FYPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DBD9D29A7FD7D6EB4B7F764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F324FC571F429AC900ACB338 /* SystemConfiguration.framework */,
+				F324FC4F1F3DCBBB00ACB338 /* libc++.tbd */,
+				F324FC481F3DC9A300ACB338 /* libsqlite3.0.tbd */,
+				F324FC461F3DC98F00ACB338 /* libz.tbd */,
+				B96A72A411B5A4260CA2F0D9 /* Pods_FYPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF0DADB4142E4A5EE48D5C18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				752EE9487F0CE2AAC1A1ED59 /* Pods-FYPlayer.debug.xcconfig */,
+				D0F7E9B5AD4C77ECD55D60E1 /* Pods-FYPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F324FC071F3DC02200ACB338 = {
+			isa = PBXGroup;
+			children = (
+				F324FC121F3DC02200ACB338 /* FYPlayer */,
+				F324FC111F3DC02200ACB338 /* Products */,
+				CF0DADB4142E4A5EE48D5C18 /* Pods */,
+				2DBD9D29A7FD7D6EB4B7F764 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F324FC111F3DC02200ACB338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F324FC101F3DC02200ACB338 /* FYPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F324FC121F3DC02200ACB338 /* FYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F324FC831F43089F00ACB338 /* FYPlayer */,
+				F324FC891F43089F00ACB338 /* Tools */,
+				F324FC431F3DC96300ACB338 /* IJKPlayer */,
+				F324FC131F3DC02200ACB338 /* AppDelegate.swift */,
+				F324FC151F3DC02200ACB338 /* ViewController.swift */,
+				F324FC1A1F3DC02200ACB338 /* Assets.xcassets */,
+				F324FC1C1F3DC02200ACB338 /* LaunchScreen.storyboard */,
+				F324FC1F1F3DC02200ACB338 /* Info.plist */,
+			);
+			path = FYPlayer;
+			sourceTree = "<group>";
+		};
+		F324FC431F3DC96300ACB338 /* IJKPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F324FC9D1F430ECD00ACB338 /* IJKMediaFramework.framework */,
+			);
+			path = IJKPlayer;
+			sourceTree = "<group>";
+		};
+		F324FC831F43089F00ACB338 /* FYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F324FC841F43089F00ACB338 /* FYLoadingView.swift */,
+				F324FC851F43089F00ACB338 /* FYNetNotiView.swift */,
+				F324FC861F43089F00ACB338 /* FYPlayerOption.swift */,
+				F324FC871F43089F00ACB338 /* FYPlayerView.swift */,
+				F324FC881F43089F00ACB338 /* FYPlayerViewController.swift */,
+			);
+			name = FYPlayer;
+			path = ../../FYPlayer;
+			sourceTree = "<group>";
+		};
+		F324FC891F43089F00ACB338 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F324FC8A1F43089F00ACB338 /* FYConst.swift */,
+				F324FC8B1F43089F00ACB338 /* UINavigationControllerExtend.swift */,
+				F324FC8C1F43089F00ACB338 /* UITabBarControllerExtend.swift */,
+			);
+			name = Tools;
+			path = ../../Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F324FC0F1F3DC02200ACB338 /* FYPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F324FC221F3DC02200ACB338 /* Build configuration list for PBXNativeTarget "FYPlayer" */;
+			buildPhases = (
+				EF7DF5929F1DCF1C2EFA7101 /* [CP] Check Pods Manifest.lock */,
+				F324FC0C1F3DC02200ACB338 /* Sources */,
+				F324FC0D1F3DC02200ACB338 /* Frameworks */,
+				F324FC0E1F3DC02200ACB338 /* Resources */,
+				94D78FBFDA12D5822E4EBD44 /* [CP] Embed Pods Frameworks */,
+				580899C9B0D0E1ADCFC58A8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYPlayer;
+			productName = FYPlayer;
+			productReference = F324FC101F3DC02200ACB338 /* FYPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F324FC081F3DC02200ACB338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fangyuan;
+				TargetAttributes = {
+					F324FC0F1F3DC02200ACB338 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XG938947YD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F324FC0B1F3DC02200ACB338 /* Build configuration list for PBXProject "FYPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F324FC071F3DC02200ACB338;
+			productRefGroup = F324FC111F3DC02200ACB338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F324FC0F1F3DC02200ACB338 /* FYPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F324FC0E1F3DC02200ACB338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F324FC1E1F3DC02200ACB338 /* LaunchScreen.storyboard in Resources */,
+				F324FC1B1F3DC02200ACB338 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		580899C9B0D0E1ADCFC58A8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYPlayer/Pods-FYPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94D78FBFDA12D5822E4EBD44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYPlayer/Pods-FYPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7DF5929F1DCF1C2EFA7101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F324FC0C1F3DC02200ACB338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F324FC901F43089F00ACB338 /* FYPlayerView.swift in Sources */,
+				F324FC161F3DC02200ACB338 /* ViewController.swift in Sources */,
+				F324FC8F1F43089F00ACB338 /* FYPlayerOption.swift in Sources */,
+				F324FC8E1F43089F00ACB338 /* FYNetNotiView.swift in Sources */,
+				F324FC911F43089F00ACB338 /* FYPlayerViewController.swift in Sources */,
+				F324FC941F43089F00ACB338 /* UITabBarControllerExtend.swift in Sources */,
+				F324FC141F3DC02200ACB338 /* AppDelegate.swift in Sources */,
+				F324FC921F43089F00ACB338 /* FYConst.swift in Sources */,
+				F324FC931F43089F00ACB338 /* UINavigationControllerExtend.swift in Sources */,
+				F324FC8D1F43089F00ACB338 /* FYLoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F324FC1C1F3DC02200ACB338 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F324FC1D1F3DC02200ACB338 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F324FC201F3DC02200ACB338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F324FC211F3DC02200ACB338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F324FC231F3DC02200ACB338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752EE9487F0CE2AAC1A1ED59 /* Pods-FYPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XG938947YD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FYPlayer/IJKPlayer",
+				);
+				INFOPLIST_FILE = FYPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangyuan.FYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F324FC241F3DC02200ACB338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F7E9B5AD4C77ECD55D60E1 /* Pods-FYPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XG938947YD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FYPlayer/IJKPlayer",
+				);
+				INFOPLIST_FILE = FYPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangyuan.FYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F324FC0B1F3DC02200ACB338 /* Build configuration list for PBXProject "FYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F324FC201F3DC02200ACB338 /* Debug */,
+				F324FC211F3DC02200ACB338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F324FC221F3DC02200ACB338 /* Build configuration list for PBXNativeTarget "FYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F324FC231F3DC02200ACB338 /* Debug */,
+				F324FC241F3DC02200ACB338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F324FC081F3DC02200ACB338 /* Project object */;
+}
