@@ -24,7 +24,7 @@
 		F324FC921F43089F00ACB338 /* FYConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC8A1F43089F00ACB338 /* FYConst.swift */; };
 		F324FC931F43089F00ACB338 /* UINavigationControllerExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC8B1F43089F00ACB338 /* UINavigationControllerExtend.swift */; };
 		F324FC941F43089F00ACB338 /* UITabBarControllerExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324FC8C1F43089F00ACB338 /* UITabBarControllerExtend.swift */; };
-		F324FC9E1F430ECD00ACB338 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F324FC9D1F430ECD00ACB338 /* IJKMediaFramework.framework */; };
+		F324FCA41F4330B100ACB338 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F324FCA31F4330B100ACB338 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +49,7 @@
 		F324FC8A1F43089F00ACB338 /* FYConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYConst.swift; sourceTree = "<group>"; };
 		F324FC8B1F43089F00ACB338 /* UINavigationControllerExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtend.swift; sourceTree = "<group>"; };
 		F324FC8C1F43089F00ACB338 /* UITabBarControllerExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarControllerExtend.swift; sourceTree = "<group>"; };
-		F324FC9D1F430ECD00ACB338 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		F324FCA31F4330B100ACB338 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 				F324FC581F429AC900ACB338 /* SystemConfiguration.framework in Frameworks */,
 				F324FC501F3DCBBB00ACB338 /* libc++.tbd in Frameworks */,
 				F324FC491F3DC9A300ACB338 /* libsqlite3.0.tbd in Frameworks */,
-				F324FC9E1F430ECD00ACB338 /* IJKMediaFramework.framework in Frameworks */,
+				F324FCA41F4330B100ACB338 /* IJKMediaFramework.framework in Frameworks */,
 				F324FC471F3DC98F00ACB338 /* libz.tbd in Frameworks */,
 				C93F0C69D155B73BD0A48C98 /* Pods_FYPlayer.framework in Frameworks */,
 			);
@@ -126,7 +126,7 @@
 		F324FC431F3DC96300ACB338 /* IJKPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				F324FC9D1F430ECD00ACB338 /* IJKMediaFramework.framework */,
+				F324FCA31F4330B100ACB338 /* IJKMediaFramework.framework */,
 			);
 			path = IJKPlayer;
 			sourceTree = "<group>";
