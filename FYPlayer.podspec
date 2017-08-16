@@ -19,11 +19,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.2"
   s.summary      = "use swift package ijkplayer."
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
+
 
   s.homepage     = "https://github.com/fangandyuan/FYPlayer"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -87,8 +83,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FYPlayer","Tools",""
-
+  s.source_files  = "FYPlayer","Tools"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -117,9 +112,7 @@ Pod::Spec.new do |s|
   s.library  =  "c++"
   s.library  = "sqlite3.0"
   s.library  = "z"
-
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+  s.ios.vendored_frameworks = "Demo/FYPlayer/IJKPlayer/IJKMediaFramework.framework"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

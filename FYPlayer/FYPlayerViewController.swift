@@ -26,21 +26,14 @@ class FYPlayerViewController: UIViewController , FYPlayerViewDelegate {
         options?.isBeingActiveState = true
         options?.isBeingAppearState = true
         options?.interfaceOrientation = UIDevice.current.orientation
-        let frame = CGRect(x: 0, y: 0, width: FYScreenWidth, height: 200);
+        let frame = CGRect(x: 0, y:FYNavHeight, width: 0, height: 200);
         playerView = FYPlayerView(frame: frame,urlStr: playUrl!, options: options!)
         playerView?.delegate = self as FYPlayerViewDelegate
         view.addSubview(playerView!)
         
-        
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: self, action: #selector(FYPlayerViewController.backTap))
         
-        
-        
     }
-    
-
-    
-
     
     //释放播放器以及所有的子控件
     func releasePlayerView() {
@@ -50,28 +43,17 @@ class FYPlayerViewController: UIViewController , FYPlayerViewDelegate {
     }
     
     
-    
     override func viewWillAppear(_ animated: Bool) {
+    
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         super.viewWillAppear(animated)
-        let delegate = UIApplication.shared.delegate as! AppDelegate
-        delegate.allowRotation = true
-        options?.isBeingAppearState = false;
         
 
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        
         super.viewWillDisappear(animated)
-        let delegate = UIApplication.shared.delegate as! AppDelegate
-        delegate.allowRotation = false
-        options?.isBeingAppearState = true;
-        
-       releasePlayerView()
-
-
     }
     
     func backTap() {//返回
@@ -80,6 +62,7 @@ class FYPlayerViewController: UIViewController , FYPlayerViewDelegate {
         }else {
             dismiss(animated: true, completion: nil)
         }
+        releasePlayerView()
     }
     
     
